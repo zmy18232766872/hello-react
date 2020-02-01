@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import CommentApp from './CommentApp'
+import './index.css'
 
 const users = [
   { username: 'Jerry', age: 21, gender: 'male' },
@@ -123,6 +125,7 @@ class Index extends Component {
 }
 
 ReactDOM.render(
-  <Index />,
+  // <Index />,
+  <CommentApp />,
   document.getElementById('root')
 )
